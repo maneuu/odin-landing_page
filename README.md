@@ -1,1 +1,3 @@
 # odin-landing_page
+This Halloween-themed website was created as a personal project to practice Flexbox for layout and design, utilizing knowledge gained from The Odin Project. The site is designed to capture the essence of Halloween through its spooky aesthetics, featuring vibrant colors, eerie graphics, and thematic elements. The main focus was on enhancing visual appearance and creating an engaging, festive look. It includes sections for Halloween treats, haunted tours, and spooky toys, all presented with a creative flair. The project highlights the practical use of Flexbox to achieve a visually striking and immersive Halloween experience.
+

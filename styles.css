@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.header{
+  height: 500px;
+  /* border: 3px solid yellow; */
+  color:  #f9faf8;
+  background-color: black;
+}
+.container{
+  max-width: 1000px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: orangered;
+  transition: .4s;
+}
+.subheader.container{
+  height: 70%;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subheader h1{
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+.subheader a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 5px 30px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 12px;
+
+}
+.main h1{
+  text-align: center;
+  margin: 50px ;
+}
+.main .card-section{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.main .card .img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid #3382f6;
+}
+.main .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.main .card p{
+  font-size: 13px;
+  padding: 20px;
+}
+.quote-section{
+  height: 320px;
+  margin-top: 60px;
+  background-color: #e5e7eb;
+}
+.quote-section .container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.quote-section .quote{
+  font-style: italic;
+  font-size: 40px;
+  color: #1f2937;
+}
+.quote-section .author{
+  font-size: 30px;
+  align-self: flex-end;
+  margin-right: 20%;
+  font-weight: bold;
+}
+.offer-section{
+  margin: 80px;
+}
+.offer-section .container{
+  padding: 15px 30px;
+  height: 120px;
+  background-color: #3382f6;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offer-section strong{
+  font-size: 25px;
+}
+.offer-section a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.footer{
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
